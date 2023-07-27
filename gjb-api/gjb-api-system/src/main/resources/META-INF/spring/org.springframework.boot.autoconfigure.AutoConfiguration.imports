@@ -1,0 +1,3 @@
+com.gjb.system.api.factory.RemoteUserFallbackFactory
+com.gjb.system.api.factory.RemoteLogFallbackFactory
+com.gjb.system.api.factory.RemoteFileFallbackFactory

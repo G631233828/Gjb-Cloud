@@ -1,0 +1,2 @@
+com.gjb.common.log.service.AsyncLogService
+com.gjb.common.log.aspect.LogAspect

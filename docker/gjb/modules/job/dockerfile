@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER gjb
+
+# 挂载目录
+VOLUME /home/gjb
+# 创建目录
+RUN mkdir -p /home/gjb
+# 指定路径
+WORKDIR /home/gjb
+# 复制jar文件到路径
+COPY ./jar/gjb-modules-job.jar /home/gjb/gjb-modules-job.jar
+# 启动定时任务服务
+ENTRYPOINT ["java","-jar","gjb-modules-job.jar"]

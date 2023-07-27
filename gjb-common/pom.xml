@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.gjb</groupId>
+        <artifactId>gjb</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>gjb-common-log</module>
+        <module>gjb-common-core</module>
+        <module>gjb-common-redis</module>
+        <module>gjb-common-seata</module>
+        <module>gjb-common-swagger</module>
+        <module>gjb-common-security</module>
+        <module>gjb-common-datascope</module>
+        <module>gjb-common-datasource</module>
+    </modules>
+
+    <artifactId>gjb-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        gjb-common通用模块
+    </description>
+
+</project>
